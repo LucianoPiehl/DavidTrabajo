@@ -1,0 +1,231 @@
+* {
+font-family: 'Open Sans', sans-serif;
+}
+#pad{
+padding-right: 1vw;
+}
+#pad2{
+padding-right: 0.2vw;
+}
+li{
+list-style-type: none;
+}
+/* Estilo para el encabezado */
+header {
+background-color: rgb(24, 161, 9);
+text-align: center;
+background-size: cover;
+height: 15vw;
+}
+header h1{
+padding: auto;
+}
+.centrado{
+color: #F5F5F5;
+
+}
+.botonescontacto{
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 0;
+left: 0;
+}
+.botonmail{
+width: 12vw;
+height: 2vw;
+color: #FFF;
+float: left;
+margin-top: 1vw;
+margin-left: 1vw;
+border-radius: 1vw;
+background-color: rgb(56, 120, 248);
+transition: background-color 0.5s ease-in-out;
+}
+.botonmail:hover { /* El cursor esta encima del boton */
+background-color: rgb(51, 0, 255); /* El color cambia */
+cursor: pointer; /* El cursor cambia a una mano */
+transition: background-color 0.5s ease-in-out;
+}
+section {
+border-radius: 1vw;
+}
+
+.botonmail:active { /* El boton esta siendo presionado */
+background-color: purple; /* El color cambia */
+transition: background-color 0.5s ease-in-out;
+}
+.botonwhats{
+width: 12vw;
+height: 2vw;
+color: #FFF;
+float: left;
+margin-top: 1vw;
+margin-left: 1vw;
+border-radius: 1vw;
+background-color: rgb(56, 120, 248);
+transition: background-color 0.5s ease-in-out;
+}
+.botonwhats:hover { /* El cursor esta encima del boton */
+background-color: rgb(51, 0, 255); /* El color cambia */
+cursor: pointer; /* El cursor cambia a una mano */
+transition: background-color 0.5s ease-in-out;
+}
+
+.botonwhats:active { /* El boton esta siendo presionado */
+background-color: purple; /* El color cambia */
+transition: background-color 0.5s ease-in-out;
+}
+.tamaño{
+width: 23vw;
+}
+.DavidBarna{
+color: #FFF;
+padding-bottom: 2vw;
+}
+body {
+margin: 0;
+padding: 0;
+background-color: #333;
+}     
+/* Estilo para el título del encabezado */
+header h1 {
+color: white;
+font-size: 36px;
+margin: 0;
+}
+
+/* Estilo para el menú de navegación */
+nav {
+background-color: #333;
+color: white;
+text-align: center;
+}
+
+/* Estilo para los enlaces del menú */
+nav a {
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+display: inline-block;
+}
+
+/* Estilo para la sección de trabajos */
+#trabajos {
+background-color: rgb(24, 161, 9);
+padding: 20px;
+}
+
+/* Estilo para las imágenes de los trabajos */
+#trabajos img {
+width: 100%;
+}
+
+/* Estilo para la sección de expectativa salarial */
+#expectativa-salarial {
+background-color: rgb(24, 161, 9);
+padding: 20px;
+}
+
+/* Estilo para la sección de servicios */
+#servicios {
+background-color: rgb(24, 161, 9);
+padding: 20px;
+}
+
+/* Estilo para la sección de contactos */
+#contactos {
+background-color: rgb(24, 161, 9);
+padding: 20px;
+}
+
+/* Estilo para los iconos de contacto */
+.contacto i {
+margin-right: 10px;
+}
+
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+section {
+width: 80%;
+text-align: center;
+}
+section h2 {
+text-align: center;
+}
+
+section p {
+text-align: center;
+display: inline-block;
+}
+.TextoSeleccion{
+font-size: 12vw;
+}
+#trabajos {
+text-align: center;
+}
+
+#expectativa-salarial {
+text-align: center;
+}
+
+#servicios {
+text-align: center;
+}
+
+#contactos {
+text-align: center;
+}
+section {
+margin: 0 auto;
+display: flex;
+justify-content: center;
+}
+/* Estilos para los divs de trabajo */
+.trabajo {
+display: inline-block; /* Muestra los divs uno al lado del otro */
+width: 25%; /* Establece el ancho de cada div en un 25% del ancho total */
+padding: 2vw;
+}
+
+/* Estilos para las secciones de servicios */
+.servicio {
+display: inline-block; /* Muestra las secciones una al lado de la otra */
+width: 33%; /* Establece el ancho de cada sección en un 33% del ancho total */
+}
+.centrado{
+-webkit-text-stroke: 1.4px #000000;
+letter-spacing: 3px;
+}
+
+.DavidBarna{
+-webkit-text-stroke: 1.4px #000000;
+letter-spacing: 3px;
+
+
+}
+.fontt{
+font-size: 1.8vw;
+}
+.centrar_header {
+display: flex; /* Establece flexbox en el header */
+align-items: center; /* Alinea los elementos en el centro verticalmente */
+justify-content: center; /* Alinea los elementos en el centro horizontalmente */
+/* Resto de las propiedades de tu header */
+flex-direction: column;
+
+
+}
+
+.centrar_header{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+header{
+height: 100%;
+}
