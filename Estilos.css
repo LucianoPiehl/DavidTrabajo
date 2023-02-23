@@ -415,6 +415,9 @@ footer{
     border-radius: 0%;
     height:8vw;
   }
+header{
+ height:8vw; 
+}
 
 @media only screen and (max-width: 600px) {
   body {
@@ -430,7 +433,7 @@ footer{
   }
   header {
     background-image: url('Imagenes/ventana2.png');
-    height: 5vw;
+    height: 15vw;
     width:100%;
     text-align: center;
     background-size: cover;
