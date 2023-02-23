@@ -384,6 +384,7 @@ main{
 img {
   max-width: 70%;
   height: auto;
+  max-height:50%;
 }
 
   header {
