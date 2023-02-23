@@ -380,13 +380,13 @@ main{
     font-size: 14px;
   }
 img {
-  max-width: 70%;
-  height: auto;
-  max-height:50%;
+  max-width: 100%;
 }
 
-  header {
-    height: 150px;
+   header {
+    background-image: url('Imagenes/ventana2.png');
+    height: 3vw;
+  
   }
   .botonmail {
     font-size: 1rem;
