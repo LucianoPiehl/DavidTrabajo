@@ -427,6 +427,10 @@ trabajo2{
   background-color: #FFF;
   margin: 0.5vw;
   height: 16vw;
+  width: calc(23.33% - 1vw); /* Restamos 1vw para dejar espacio entre los elementos */
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+  height: 23%;
 }
 @media only screen and (max-width: 600px) {
    .centrado{
