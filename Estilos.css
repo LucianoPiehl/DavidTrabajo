@@ -381,9 +381,11 @@ main{
   body {
     font-size: 14px;
   }
-  img {
-    max-width: 100%;
-  }
+img {
+  max-width: 70%;
+  height: auto;
+}
+
   header {
     height: 150px;
   }
