@@ -132,8 +132,7 @@ body {
   /* Estilo para la sección de trabajos */
   #trabajos {
   background-color: rgb(24, 161, 9);
-  padding: 20px;
-  margin: 1vw;
+  
   }
   .trabajo{
       border: #FFF;
@@ -160,8 +159,7 @@ body {
   /* Estilo para la sección de servicios */
   #servicios {
   background-color: rgb(24, 161, 9);
-  padding: 20px;
-  margin: 3vw;
+  margin-top: 2vw;
   width: 90%;
      }
   #config{
