@@ -427,7 +427,8 @@ footer{
   }
   header {
     background-image: url('Imagenes/ventana2.png');
-    height: 3vw;
+    height: 5vw;
+    width:100%;
   
   }
   .botonmail {
