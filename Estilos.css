@@ -420,6 +420,19 @@ header{
 }
 
 @media only screen and (max-width: 600px) {
+   .centrado{
+  -webkit-text-stroke: 1.4px #000000;
+  letter-spacing: 3px;
+  top: 0;
+
+  }
+  
+  .DavidBarna{
+  -webkit-text-stroke: 1.4px #000000;
+  letter-spacing: 3px;
+  top:0
+  
+  }
   #trabajos{
   height: 100vw;
 }
