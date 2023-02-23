@@ -420,17 +420,27 @@ header{
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-    margin:0;
-    padding:0;
-    display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
-  }
-  footer{
-    align-self: flex-end;
-  }
+  #trabajos{
+  height: 100vw;
+}
+#contactos{
+  height: 40vw;
+}
+body {
+  font-size: 14px;
+  margin:0;
+  padding:0;
+  display: flex;
+  min-height: 160vh;
+  flex-wrap: wrap;
+}
+footer{
+  align-self: flex-end;
+  width: 100%;
+
+}
+
+
   header {
     background-image: url('Imagenes/ventana2.png');
     height: 15vw;
