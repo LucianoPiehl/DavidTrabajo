@@ -26,7 +26,7 @@ body {
   text-align: center;
   background-size: cover;
   height: 15vw;
-  width: 95%;
+  width: 100%;
   border-radius: 1vw;
   margin:0;
   padding: 0;
@@ -429,6 +429,11 @@ footer{
     background-image: url('Imagenes/ventana2.png');
     height: 5vw;
     width:100%;
+    text-align: center;
+    background-size: cover;
+    border-radius: 1vw;
+    margin:0;
+    padding: 0;
   
   }
   .botonmail {
